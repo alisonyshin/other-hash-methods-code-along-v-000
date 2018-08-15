@@ -10,7 +10,7 @@ groceries = {
 
 
 def get_the_min(groceries)
-  groceries.keys.flatten.min
+  groceries.keys.flatten
 end
 
 puts get_the_min(groceries)
